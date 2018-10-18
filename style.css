@@ -4,8 +4,13 @@ body {
 .main-header {
     background-image: url(img/banner.png);
     background-repeat: no-repeat;
-    background-position: center/cover;
+    background-position: center;
+    background-size: cover;
     width: 1024px;
     height: 600px;
     margin: 0 auto;
+}
+
+main, footer {
+    height: 2000px;
 }
